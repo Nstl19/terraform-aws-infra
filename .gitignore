@@ -1,0 +1,24 @@
+.terraform/
+
+# Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+
+# Crash log files
+crash.log
+
+# Local override configs
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# variable files
+terraform.tfvars
+*.tfvars
+
+# Lock file
+.terraform.lock.hcl
+
+# IDE specific junk
+.vscode/
