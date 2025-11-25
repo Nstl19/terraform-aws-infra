@@ -4,7 +4,7 @@
 
 ## Project Structure
 
-<img width="160" height="100" alt="aws-terraform-infra-structure" src="https://github.com/user-attachments/assets/2a54385e-ee04-47c3-80d7-68ee2bd2a4c0" />
+<img width="860" height="790" alt="aws-terraform-infra-structure" src="https://github.com/user-attachments/assets/2a54385e-ee04-47c3-80d7-68ee2bd2a4c0" />
 
 
 ## Deployed
