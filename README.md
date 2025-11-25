@@ -2,21 +2,26 @@
 
 ---
 
-## What This Project Deploys
+## Project Structure
 
-### **1 VPC + Networking**
+<img width="1536" height="1024" alt="aws-terraform-infra-structure" src="https://github.com/user-attachments/assets/2a54385e-ee04-47c3-80d7-68ee2bd2a4c0" />
+
+
+## Deployed
+
+### **1. VPC + Networking**
 - Custom VPC (10.0.0.0/16)  
 - Two public subnets across different AZs  
 - Internet Gateway  
 - Public route table + associations  
 
-### **2 EC2 Compute Layer**
+### **2. EC2 Compute Layer**
 - EC2 instance in a public subnet  
 - Nginx auto-installed using `user_data.sh`  
 - SSH access enabled using an existing key pair  
 - IAM role attached to allow S3 access
 
-### **3 S3 Storage**
+### **3. S3 Storage**
 - S3 bucket created automatically  
 - EC2 instance gets S3 read/write permissions  
 - Bucket name auto-generated from project name
