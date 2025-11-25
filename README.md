@@ -1,8 +1,5 @@
 # Terraform AWS Infrastructure Project
 
-This project deploys a complete AWS infrastructure stack using **Terraform**, built to showcase real-world Cloud + DevOps skills.  
-Everything is fully automated — no click-ops, no manual setup.
-
 ---
 
 ## What This Project Deploys
